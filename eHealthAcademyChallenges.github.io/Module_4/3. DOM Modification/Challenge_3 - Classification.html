@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <title>Challenge: Classification</title>
+    <style>
+        body {
+            background-color: black;
+            color: white;
+            text-align: center;
+            font-family: cursive;
+            font-size: 20px;
+        }
+        
+        .right-answer {
+            background: rgb(0, 255, 9);
+            border: 4px solid grey;
+            border-radius: 12px;
+        }
+        
+        .wrong-answer {
+            background: rgb(237, 28, 0);
+            border: 4px solid grey;
+            border-radius: 12px;
+        }
+    </style>
+</head>
+
+<body>
+    <h2 id="mane">Pop Quiz: Animal Classification</h2>
+
+    <p>Which animal class do humans belong to?</p>
+    <ul id="answers">
+        <li>Mammalia</li>
+        <li>Ascidiacea</li>
+        <li>Reptilia</li>
+    </ul>
+
+    <script>
+        var answers = document.querySelectorAll("#answers li");
+        /*The correct option*/
+        var rightAnswer = answers[0];
+        rightAnswer.className = "right-answer";
+        /*The wrong options*/
+        var wrongAnswer1 = answers[1];
+        wrongAnswer1.className = "wrong-answer";
+        var wrongAnswer2 = answers[2];
+        wrongAnswer2.className = "wrong-answer";
+        /*give h1 tag element a color and border*/
+        var liverpool = document.getElementById("mane");
+        liverpool.style.color = "gold";
+        liverpool.style.border = "3px solid grey";
+        liverpool.style.borderRadius = "12px";
+    </script>
+</body>
+
+</html>

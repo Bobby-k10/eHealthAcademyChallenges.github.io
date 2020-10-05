@@ -1,0 +1,116 @@
+body {
+    background-color: whitesmoke;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: justify;
+    padding: 12px;
+    border: 12px solid;
+    margin: auto;
+    margin-left: 60px;
+    margin-right: 60px;
+}
+
+a {
+    color: white;
+    font-style: inherit;
+}
+
+a:hover {
+    color: red;
+}
+
+#dell {
+    text-align: center;
+    background-color: white;
+    color: blue;
+    font-family: Trebuchet;
+    font-size: 36px;
+    border: 5px solid purple;
+    font-weight: bold;
+}
+
+h2 {
+    text-align: center;
+    color: darkblue;
+    border: 5px solid purple;
+    font-weight: bold;
+}
+
+h3 {
+    color: gold;
+}
+
+ol {
+    color: goldenrod;
+}
+
+#bob1 {
+    background-color: white;
+    border: 5px solid black;
+}
+
+#bob2 {
+    background-color: palevioletred;
+    border: 5px solid white;
+}
+
+#bob3 {
+    background-color: blueviolet;
+    border: 5px solid black;
+}
+
+#bob4 {
+    background-color: coral;
+    border: 5px solid black;
+}
+
+#bob5 {
+    background-color: darkorchid;
+    border: 5px solid black;
+}
+
+#bob6 {
+    background-color: darkslategrey;
+    border: 5px solid black;
+}
+
+#bob7 {
+    background-color: forestgreen;
+    border: 5px solid black;
+}
+
+#bob8 {
+    background-color: sienna;
+    border: 5px solid black;
+}
+
+#bob9 {
+    background-color: cornflowerblue;
+    border: 5px solid white;
+}
+
+#bob10 {
+    background-color: palevioletred;
+    border: 5px solid black;
+}
+
+#bob11 {
+    background-color: coral;
+    border: 5px solid black;
+}
+
+#bob12 {
+    background-color: forestgreen;
+    border: 5px solid black;
+}
+
+#bob13 {
+    background-color: darkslategrey;
+    border: 5px solid black;
+}
+
+#bob14 {
+    background-color: darkorchid;
+    border: 5px solid black;
+}

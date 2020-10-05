@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Challenge: Cars Listing</title>
+    <style>
+        body {
+            text-align: center;
+            border: 6px solid purple;
+            padding: 12px;
+        }
+        
+        h1 {
+            background-color: purple;
+            color: white;
+        }
+        
+        #bird {
+            color: blue;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Challenge: Cars Listing</h1>
+    <h3>Press <span id="bird">"Ctrl + Shift + J"</span> to view Cars Listing</h3>
+    <script type="text/javascript">
+        let cars = ["Toyota", "Honda", "Mazda", "Mitsubishi", "Tesla", "Lexus"];
+        console.log(cars);
+        console.log(cars.length);
+        console.log(cars[0]);
+        console.log(cars[5]);
+        cars.push("Mercedes");
+        console.log(cars);
+        console.log(cars.length);
+        for (let x = 0; x <
+            cars.length; x++) {
+            console.log(cars[x])
+        }
+        let y = 0;
+        while (y < cars.length) {
+            console.log(cars[y]);
+            y++;
+        }
+    </script>
+</body>
+
+</html>

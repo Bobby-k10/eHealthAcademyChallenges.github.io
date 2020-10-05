@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Project: Grade Calculator</title>
+    <style>
+        body {
+            text-align: center;
+            padding: 12px;
+            border: 12px solid crimson;
+            color: white;
+            background-color: teal;
+            font-size: 24px;
+        }
+    </style>
+</head>
+
+<body>
+    <script>
+        scoreTotal = {
+            from: 0,
+            to: 100
+        };
+        var scoreTotal = prompt("Input a Score");
+        if ((scoreTotal >= 70) && (scoreTotal <= 100)) {
+            alert("A");
+            alert("Distinction");
+            document.write("Your Grade is A");
+        } else if ((scoreTotal >= 60) && (scoreTotal <= 69.9)) {
+            alert("B");
+            alert("Very Good");
+            document.write("Your Grade is B");
+        } else if ((scoreTotal >= 50) && (scoreTotal <= 59.9)) {
+            alert("C");
+            alert("Credit");
+            document.write("Your Grade is C");
+        } else if ((scoreTotal >= 45) && (scoreTotal <= 49.9)) {
+            alert("D");
+            alert("Fair");
+            document.write("Your Grade is D");
+        } else if ((scoreTotal >= 40) && (scoreTotal <= 44.9)) {
+            alert("E");
+            alert("Pass");
+            document.write("Your Grade is E");
+        } else if ((scoreTotal >= 0) && (scoreTotal <= 39.9)) {
+            alert("F");
+            alert("Fail");
+            document.write("Your Grade is F");
+        } else {
+            alert("null");
+            alert("Score range is between (0 - 100)")
+            document.write("Please, input a valid Score");
+        }
+    </script>
+</body>
+
+</html>
